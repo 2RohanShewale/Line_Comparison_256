@@ -24,7 +24,6 @@ namespace LineComparisonProblem
 
             //UC3
             int a = length_One.CompareTo(length_two);
-            Console.WriteLine(a);
             if (a == 0)
                 Console.WriteLine("Both Lines are equal");
             else if (a > 0)
